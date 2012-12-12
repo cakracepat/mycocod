@@ -1,18 +1,3 @@
-//** Featured Content Slider script- (c) Dynamic Drive DHTML code library: http://www.dynamicdrive.com.
-//** May 2nd, 08'- Script rewritten and updated to 2.0.
-//** June 12th, 08'- Script updated to v 2.3, which adds the following features:
-			//1) Changed behavior of script to actually collapse the previous content when the active one is shown, instead of just tucking it underneath the later.
-			//2) Added setting to reveal a content either via "click" or "mouseover" of pagination links (default is former).
-			//3) Added public function for jumping to a particular slide within a Featured Content instance using an arbitrary link, for example.
-
-//** July 11th, 08'- Script updated to v 2.4:
-			//1) Added ability to select a particular slide when the page first loads using a URL parameter (ie: mypage.htm?myslider=4 to select 4th slide in "myslider")
-			//2) Fixed bug where the first slide disappears when the mouse clicks or mouses over it when page first loads.
-			
-// Featured Content Slider- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
-// This notice MUST stay intact for legal use
-// Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-
 var featuredcontentslider={
 
 //3 variables below you can customize if desired:
@@ -217,7 +202,6 @@ setCookie:function(name, value){
 
 },
 
-
 init:function(setting){
 	var persistedpage=this.getCookie("fcspersist"+setting.id) || 1
 	var urlselectedpage=this.urlparamselect(setting.id) //returns null or index from: mypage.htm?featuredcontentsliderid=index
@@ -235,5 +219,4 @@ init:function(setting){
 	if (setting.contentsource[0]=="ajax")
 		this.ajaxconnect(setting)
 }
-
 }
