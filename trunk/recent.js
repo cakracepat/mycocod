@@ -5,7 +5,7 @@ if (entry.link[k].rel == 'alternate') {posturl = entry.link[k].href;break;}}var 
 var postdate = entry.published.$t;var cdyear = postdate.substring(0,4);var cdmonth = postdate.substring(5,7);var cdday = postdate.substring(8,10);var monthnames = new Array();monthnames[1] = "Jan";monthnames[2] = "Feb";monthnames[3] = "Mar";monthnames[4] = "Apr";monthnames[5] = "May";monthnames[6] = "Jun";monthnames[7] = "Jul";monthnames[8] = "Aug";monthnames[9] = "Sep";monthnames[10] = "Oct";monthnames[11] = "Nov";monthnames[12] = "Dec";document.write('');
 document.write('<li>');
 if(showpostthumbnails==true) 
-document.write('<a href="'+posturl+'"><img class="thumbnail" src="'+thumburl+'" title="'+posttitle+'" alt="'+posttitle+'" style="width:72px;height:72px;"/></a>');
+document.write('<a href="'+posturl+'"><img class="thumbnail" src="'+thumburl+'" title="'+posttitle+'" alt="'+posttitle+'"/></a>');
 var towrite='';var flag=0;
 document.write('<a href="'+posturl+'">'+posttitle+'</a>');
 document.write('<span class="meta">');
