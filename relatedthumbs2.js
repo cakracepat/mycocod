@@ -5,8 +5,8 @@ addLoadEvent(removeRelatedDuplicates_thumbs);
 addLoadEvent(contains_thumbs);
 addLoadEvent(printRelatedLabels_thumbs);
 addLoadEvent(function() {
-  related_results_labels_thumbs();
+  related_results_labels_thumbs(json);
   removeRelatedDuplicates_thumbs();
-  contains_thumbs();
-  printRelatedLabels_thumbs();
+  contains_thumbs(a, e);
+  printRelatedLabels_thumbs(current);
 });
