@@ -1,2 +1,2 @@
-.content-left {width:315px}
-.content-right {width:315px}
+.content-left { float:left; width:300px; }
+.content-right { float:right; width:325px; background: url(/images/laris.png) left no-repeat }
