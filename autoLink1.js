@@ -1,19 +1,19 @@
 function autoLink(){
-    this.tr = "adfadf";
+    this.tr = &quot;adfadf&quot;;
     this.keywdHref = new Object();
     this.add = function(keyword, href){
-        if(keyword.substr(0,1) != " "){keyword = " " + keyword;}
+        if(keyword.substr(0,1) != &quot; &quot;){keyword = &quot; &quot; + keyword;}
         this.keywdHref[keyword] =  href;
     }
     this.createAnchor = function(){
-        var objs = document.getElementsByTagName("div");
-        for(var i=0; i<objs.length; i++){
+        var objs = document.getElementsByTagName(&quot;div&quot;);
+        for(var i=0; i&lt;objs.length; i++){
             var obj = objs[i];
-            if(obj.className == "post-body"){
+            if(obj.className == &quot;post-body&quot;){
                 var content = obj.innerHTML;
                 for(var keyword in this.keywdHref){
                     var href = this.keywdHref[keyword];
-                    var newstr = content.replace(keyword, "<a href='"+href+"'>"+keyword+"</a>", "gi");
+                    var newstr = content.replace(keyword, &quot;<a href='&quot;+href+&quot;'>&quot;+keyword+&quot;</a>&quot;, &quot;gi&quot;);
                     obj.innerHTML = newstr;
                     content = newstr;
                 }
@@ -24,7 +24,7 @@ function autoLink(){
         var onLoad = window.onload;
         window.onload = function(){
             if(onLoad){onLoad();}
-            setTimeout("f.createAnchor()", 100);
+            setTimeout(&quot;f.createAnchor()&quot;, 100);
         }
     }
 }
