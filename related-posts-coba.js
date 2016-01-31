@@ -12,7 +12,7 @@
         b, a = [],
         g, f, d, c;
     e.maxPostsToFetch = (typeof bloggerRelatedPosts_config === "object" && bloggerRelatedPosts_config.maxPostsToFetch) || 100;
-    e.maxPostsToDisplay = (typeof bloggerRelatedPosts_config === "object" && bloggerRelatedPosts_config.maxPostsToDisplay) || 5;
+    e.maxPostsToDisplay = (typeof bloggerRelatedPosts_config === "object" && bloggerRelatedPosts_config.maxPostsToDisplay) || 3;
     b = document.querySelector("link[rel=canonical]").href;
     if (/\x2F\d{4}\x2F\d{2}\x2F/.test(b) === false) {
         return
