@@ -65,7 +65,7 @@
             }
             if (s[q].media$thumbnail) {
                 y.icon = {
-                    src: s[q].media$thumbnail.url.replace(/\/s72\-c/, "/s320-c"),
+                    src: s[q].media$thumbnail.url.replace(/\/s72\-c/, "/s200-c"),
                     width: s[q].media$thumbnail.width,
                     height: s[q].media$thumbnail.height
                 }
