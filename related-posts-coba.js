@@ -78,7 +78,7 @@
         l = l.slice(0, e.maxPostsToDisplay);
         h = document.createElement("div");
         h.id = "blogger-related-posts";
-        h.innerHTML = "<h3>Related Posts</h3>";
+        h.innerHTML = "<h3>You May Also Like</h3>";
         t = document.createElement("ul");
         for (q = 0; q < l.length; q++) {
             w = document.createElement("li");
