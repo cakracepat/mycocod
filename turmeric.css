@@ -13,7 +13,8 @@ a:hover{color:#E74C3C;text-decoration:underline}
 body#layout #main-area{overflow:visible;margin:0;width:600px;padding-right:0}
 #skel-body{position:relative;width:100%}
 #header-heed{height:88px}
-#header-area{background:url(&quot;http://1.bp.blogspot.com/-DTMU1ib6N_0/VrRcmCeNn9I/AAAAAAAAA-w/rz8zYRZjv_I/s1600/bg-img2.png&quot;) repeat-x scroll 0 0 rgba(0,0,0,0);width:100%;float:left;height:150px;position:absolute}
+#header-area{background:url(http://1.bp.blogspot.com/-DTMU1ib6N_0/VrRcmCeNn9I/AAAAAAAAA-w/rz8zYRZjv_I/s1600/bg-img2.png) 
+repeat-x scroll 0 0 rgba(0,0,0,0);width:100%;float:left;height:150px;position:absolute}
 #header-place{padding:22px 18px 20px;position:relative;width:960px;margin:0 auto}
 #header-inner{background-position:center;margin-left:auto;margin-right:auto}
 #header{margin:0;border:0 solid #ccc;color:#666;float:left;width:30%;overflow:hidden}
