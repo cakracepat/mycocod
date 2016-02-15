@@ -306,6 +306,7 @@ a.more-link{background-color:#1AC381;color:#fff;float:left;margin:10px 0;padding
 .UJ-list li:first-child .uj_thumb,.inde-uj li:first-child .uj_thumb,.cols-2 li:first-child .uj_thumb,#call5 li:first-child .uj_thumb,.uj-box.cols-2,.pix_uj .box-content ul li:first-child{width:304px}
 .UJ-list li:first-child,.UJ-list li{width:304px}
 .car-box li{margin-right:10px;width:196px}
+.post .item-thumbnail { float: left;max-height: 168px;overflow: hidden;padding: 0px 20px 0px 0px;width: 45%;}
 }
 @media(min-width:1280px) {
 #header-place{width:960px}
