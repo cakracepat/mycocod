@@ -226,6 +226,7 @@ a.more-link{background-color:#1AC381;color:#fff;float:left;margin:10px 0;padding
 .Rask .ContactForm{margin:0;display:block!important}
 #regret{display:none;color:#fff;padding:6px 8px;font-weight:700}
 #net{height:28px;width:99.9%}
+.post .item-thumbnail { float: left;overflow: hidden;}
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 .pix_uj .box-content ul li:first-child{margin:-20px 0 0}
 #search-area input:last-child{background:url(http://3.bp.blogspot.com/-BouzPCQMcIc/U5y_0cGCA0I/AAAAAAAACiA/q9Ybfl_Pb9M/s200/search+blog.png) no-repeat scroll 0 4px rgba(0,0,0,0)}
@@ -247,6 +248,7 @@ a.more-link{background-color:#1AC381;color:#fff;float:left;margin:10px 0;padding
 .inner-content{width:73%}
 .UJ-list li:first-child .uj_thumb,.inde-uj li:first-child .uj_thumb,.cols-2 li:first-child .uj_thumb,#postshow1 ul li .uj_thumb,#call5 li:first-child .uj_thumb,.uj-box.cols-2{width:220px}
 .uj-box,.car-box,#pix_uj{width:100%}
+.post .item-thumbnail{height: 140px}
 }
 @media(min-width:320px) {
 #header-place{width:300px}
@@ -261,6 +263,7 @@ a.more-link{background-color:#1AC381;color:#fff;float:left;margin:10px 0;padding
 #share-post{display:block}
 .inner-content{width:93%}
 .UJ-list li:first-child .uj_thumb,.inde-uj li:first-child .uj_thumb,.cols-2 li:first-child .uj_thumb,#postshow1 ul li .uj_thumb,#call5 li:first-child .uj_thumb,.uj-box.cols-2{width:300px}
+.post .item-thumbnail{height: 180px}
 }
 @media(min-width:480px) {
 #header-place{width:450px}
@@ -279,6 +282,7 @@ a.more-link{background-color:#1AC381;color:#fff;float:left;margin:10px 0;padding
 .UJ-list li:first-child .uj_thumb,.inde-uj li:first-child .uj_thumb,.cols-2 li:first-child .uj_thumb,#postshow1 ul li .uj_thumb,#call5 li:first-child .uj_thumb,.uj-box.cols-2,.pix_uj .box-content ul li:first-child{width:100%}
 .uj_thumb img{width:100%}
 .car-box li{margin-right:8px;width:48%}
+.post .item-thumbnail{height: 230px}
 }
 @media(min-width:768px) {
 #header-place{width:740px}
@@ -333,6 +337,6 @@ html h3.post-title{font-size:22px}
 .post-body .separator { width:100%;max-height:350px;overflow:hidden;margin-bottom: 7px;}
 .post img { width: 100%;}
 .breadcrumbs{padding:0 5px 5px 0;margin:0 0 5px;font-size:11px;border-bottom:1px dotted #ccc;font-weight:normal}
-#blogger-related-posts ul{padding:0;list-style-type:none;text-align:left}#blogger-related-posts li{float:left;margin:0 1%;width:180px}#blogger-related-posts a{display:block}#blogger-related-posts span{display:block;margin:0 auto .5em;width:180px;height:120px;background-size: 180px 180px !important;}#blogger-related-posts ul:after{content:&quot;&quot;;display:block;clear:both}#blogger-related-posts small{}#blogger-related-posts h3{font-size: 20px;}
+#blogger-related-posts ul{padding:0;list-style-type:none;text-align:left}#blogger-related-posts li{float:left;margin:0 1%;width:180px}#blogger-related-posts a{display:block}#blogger-related-posts span{display:block;margin:0 auto .5em;width:180px;height:120px;background-size: 180px 180px !important;}#blogger-related-posts ul:after{content:"";display:block;clear:both}#blogger-related-posts small{}#blogger-related-posts h3{font-size: 20px;}
 .status-msg-body { padding: 0.3em 0px;text-align: center;width: 100%;}
 .status-msg-wrap { background-color: #EEEEEE;border: 1px solid #999999;font-size: 110%;margin: 10px auto;width: 90%;}
