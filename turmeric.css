@@ -51,8 +51,8 @@ ul.ftmenu li li:hover ul,ul.ftmenu li li.fube ul,ul.ftmenu li li li:hover ul,ul.
 #searchform{background:#fff;border:2px solid #ddd;border-radius:22px;padding:4px 6px;text-indent:3px}
 #main-place{background:#fff;padding:0;width:100%}
 #main-area{width:600px;float:left;padding:25px 14px 25px 4px;word-wrap:break-word;overflow:hidden}
-#rside-area{width:290px;float:left;padding:0;word-wrap:break-word;margin:0 0 30px;overflow:hidden}
-.post{margin-bottom:50px}
+#rside-area{width:290px;float:left;padding:0;word-wrap:break-word;margin:25px 0 30px;overflow:hidden}
+.post{margin-bottom:20px}
 .post-title{color:#3d5054;font-size:22px;font-weight:400;letter-spacing:.6px;line-height:24px!important;text-transform:capitalize}
 .post-title a{color:#713788}
 .post-title a:hover{color:#3d5054;text-decoration:none}
@@ -62,7 +62,7 @@ blockquote{color:#666;font-size:14px;font-style:italic;border-left:10px solid #f
 .sidebar{margin:0 0 10px}
 .sidebar ul{list-style-type:none;list-style:none;margin:0;padding:0}
 .sidebar ul li{padding:0 0 9px;margin:0 0 8px}
-.sidebar .widget{margin:0;width:100%;margin-top:10px;margin-bottom:30px}
+.sidebar .widget{margin:0;width:100%;margin-top:10px;margin-bottom:20px}
 #skelar-body{backface-visibility:hidden;position:relative;-webkit-transition:all .25s linear 0;-moz-transition:all .25s linear 0;-ms-transition:all .25s linear 0;-o-transition:all .25s linear 0;transition:all .25s linear 0;width:100%}
 .column .widget{margin-bottom:20px!important}
 .sidebar li{border-bottom:1px dotted #d2d2d2;padding:8px 0 10px 1px;list-style:none}
@@ -332,3 +332,6 @@ html h3.post-title{font-size:22px}
 .post-body .separator { width:100%;max-height:350px;overflow:hidden;margin-bottom: 7px;}
 .post img { width: 100%;}
 .breadcrumbs{padding:0 5px 5px 0;margin:0 0 5px;font-size:11px;border-bottom:1px dotted #ccc;font-weight:normal}
+#blogger-related-posts ul{padding:0;list-style-type:none;text-align:left}#blogger-related-posts li{float:left;margin:0 1%;width:180px}#blogger-related-posts a{display:block}#blogger-related-posts span{display:block;margin:0 auto .5em;width:180px;height:120px;background-size: 180px 180px !important;}#blogger-related-posts ul:after{content:&quot;&quot;;display:block;clear:both}#blogger-related-posts small{}#blogger-related-posts h3{font-size: 20px;}
+.status-msg-body { padding: 0.3em 0px;text-align: center;width: 100%;}
+.status-msg-wrap { background-color: #EEEEEE;border: 1px solid #999999;font-size: 110%;margin: 10px auto;width: 90%;}
