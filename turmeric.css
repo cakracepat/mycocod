@@ -331,3 +331,4 @@ html h3.post-title{font-size:22px}
 #header-area{background:url(http://1.bp.blogspot.com/-DTMU1ib6N_0/VrRcmCeNn9I/AAAAAAAAA-w/rz8zYRZjv_I/s1600/bg-img2.png) repeat-x scroll 0 0 rgba(0,0,0,0)}
 .post-body .separator { width:100%;max-height:350px;overflow:hidden;margin-bottom: 7px;}
 .post img { width: 100%;}
+.breadcrumbs{padding:0 5px 5px 0;margin:0 0 5px;font-size:11px;border-bottom:1px dotted #ccc;font-weight:normal}
