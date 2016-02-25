@@ -340,3 +340,15 @@ html h3.post-title{font-size:22px}
 #blogger-related-posts ul{padding:0;list-style-type:none;text-align:left}#blogger-related-posts li{float:left;margin:0 1%;width:180px}#blogger-related-posts a{display:block}#blogger-related-posts span{display:block;margin:0 auto .5em;width:180px;height:120px;background-size: 180px 180px !important;}#blogger-related-posts ul:after{content:"";display:block;clear:both}#blogger-related-posts small{}#blogger-related-posts h3{font-size: 20px;}
 .status-msg-body { padding: 0.3em 0px;text-align: center;width: 100%;}
 .status-msg-wrap { background-color: #EEEEEE;border: 1px solid #999999;font-size: 110%;margin: 10px auto;width: 90%;}
+/* Blog pager */
+#blog-pager{text-align:center;padding:0;}
+#blog-pager .home-link{display:inline-block;}
+#blog-pager a{background:#e8635f;display:block;margin:15px 0 20px;padding:0 12px;line-height:25px;color:#fff;font-weight:400;z-index:999;border-radius:2px}
+#blog-pager a:hover{text-decoration:none;color:#fff;background:#d85c58}
+#blog-pager a.blog-pager-older-link{float:right;padding:0 12px}
+#blog-pager a.blog-pager-newer-link{float:left}
+/* Footer Wrapper */
+#footer{margin:0 auto;}
+#footer-wrapper{background:#29abe2;color:#fff;line-height:1;padding:5px 0 10px 0;text-align:center}
+#footer a {color:#fff;text-decoration:none;}
+#footer a:hover {color:#fff;}
