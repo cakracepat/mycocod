@@ -17,7 +17,7 @@ body#layout #main-area{overflow:visible;margin:0;width:600px;padding-right:0}
 #header-inner{background-position:center;margin-left:auto;margin-right:auto}
 #header{margin:0;border:0 solid #ccc;color:#666;float:left;width:30%;overflow:hidden}
 #header h1{font-family: "Roboto Condensed";font-size: 240%;line-height:42px;font-weight: 700;text-transform: uppercase;margin:0;padding:0}
-#header h1 a,#header h1 a:visited{color:#eee;text-decoration:none}
+#header h1 a,#header h1 a:visited{color:#eee;text-decoration:none;text-transform: uppercase;}
 #header h1 a:hover{color:#fff}
 #header .description{line-height:26px;font-size:120%;color:#fff}
 #header-rside{width:730px;height:90px;overflow:hidden;margin:-12px 0 0;padding:0;float:right}
