@@ -1,6 +1,6 @@
 body#layout .section-title,body#layout #navbar2-mid,body#layout #slider,#navbar,.date-header,.feed-links,.post-location,.post-share-buttons,.post-icons,#crosscol-wrapper{display:none!important}
 body,h1,h2,h3,h4,h5,ul,li,a,p,span,img,dd{margin:0;padding:0;text-decoration:none;border:0;outline:0}
-body,.body-fauxcolumn-outer{font-family:helvetica,arial,sans-serif!important;font-size:14px;color:#3d5054;margin:0;padding:0;line-height:1.52em}
+body,.body-fauxcolumn-outer{font-family:Roboto,helvetica,arial,sans-serif!important;font-size:14px;color:#3d5054;margin:0;padding:0;line-height:1.52em}
 h1,h2,h3,h4,h5,h6{color:#3d5054;font-weight:400;letter-spacing:-1px;line-height:36px;text-transform:capitalize;margin:5px 0 6px}
 h1{font-size:40px}
 h2{font-size:38px}
@@ -8,8 +8,7 @@ h3{font-size:36px}
 h4{font-size:34px}
 h5{font-size:32px}
 h6{font-size:30px}
-a{color:#369}
-a:hover{color:#E74C3C;text-decoration:underline}
+a:hover{color:text-decoration:underline}
 body#layout #main-area{overflow:visible;margin:0;width:600px;padding-right:0}
 #skel-body{position:relative;width:100%}
 #header-heed{height:88px}
@@ -352,3 +351,5 @@ html h3.post-title{font-size:22px}
 #footer-wrapper{background:#29abe2;color:#fff;line-height:1;padding:5px 0 10px 0;text-align:center}
 #footer a {color:#fff;text-decoration:none;}
 #footer a:hover {color:#fff;}
+a{color:#369}
+a:hover{color:#E74C3C}
