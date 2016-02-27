@@ -7,7 +7,7 @@ h2{font-size:150%}
 h3{font-size:120%}
 h4{font-size:100%}
 h5{font-size:95%}
-h6{font-size:80%}
+h6{font-size:85%}
 a:hover{color:text-decoration:underline;text-transform: capitalize}
 body#layout #main-area{overflow:visible;margin:0;width:600px;padding-right:0}
 #skel-body{position:relative;width:100%}
@@ -16,9 +16,8 @@ body#layout #main-area{overflow:visible;margin:0;width:600px;padding-right:0}
 #header-place{padding:22px 18px 20px;position:relative;width:960px;margin:0 auto}
 #header-inner{background-position:center;margin-left:auto;margin-right:auto}
 #header{margin:0;border:0 solid #ccc;color:#666;float:left;width:30%;overflow:hidden}
-#header h1{font-family: "Roboto Condensed";font-size: 240%;line-height:42px;font-weight: 700;text-transform: uppercase;margin:0;padding:0}
-#header h1 a,#header h1 a:visited{color:#eee;text-decoration:none;text-transform: uppercase;}
-#header h1 a:hover{color:#fff}
+#header h1{font-size: 240%;line-height:42px;margin:0;padding:0}
+#header h1,#header h1 a,#header h1 a:hover,#header h1 a:visited{color:#fff;text-decoration:none;text-transform: uppercase;font-weight: 700;}
 #header .description{line-height:26px;font-size:120%;color:#fff}
 #header-rside{width:730px;height:90px;overflow:hidden;margin:-12px 0 0;padding:0;float:right}
 #header-rside h2{display:none}
@@ -26,7 +25,7 @@ body#layout #main-area{overflow:visible;margin:0;width:600px;padding-right:0}
 #focus{height:88px}
 #nav-bar{background:url(http://3.bp.blogspot.com/-Mxw6t36FbaY/U2k8eKzdJQI/AAAAAAAACgs/0DtZAlTHYZA/s200/nav2-bg.png) repeat-x scroll 0 0 rgba(0,0,0,0);width:100%;float:left;height:40px;margin:0}
 .ftmenu{height:40px;float:left}
-.ftmenu a{padding:12px 25px;font-size:100%;font-weight:700;display:block;position:relative;text-decoration:none;text-shadow:1px 1px 1px #fff}
+.ftmenu a{padding:9px 25px;font-size:100%;font-weight:700;display:block;position:relative;text-decoration:none;text-shadow:1px 1px 1px #fff}
 .ftmenu li li a:hover,.ftmenu li li a{background:url(http://riyadhconnect.com/wp-content/themes/GeoPlaces/skins/../images/bullet.png) no-repeat scroll 26px 15px rgba(0,0,0,0)}
 .ftmenu li li a{padding:11px 5px 11px 40px;font-size:100%;box-shadow:0 5px 6px rgba(0,0,0,0.2);color:#777!important}
 .ftmenu li li a:hover{border:0}
@@ -69,9 +68,9 @@ blockquote{color:#666;font-size:100%;font-style:italic;border-left:10px solid #f
 .avatar-image-container{margin:.2em 0 0}
 #comments .avatar-image-container img{border:1px solid $(image.border.color)}
 .avatar-image-container img{border-radius:0 999px 999px 999px}
-.comment-actions a{font-size:80%;color:#777!important}
+.comment-actions a{font-size:85%;color:#777!important}
 .comments .comments-content .user{font-size:110%;color:#000}
-.comments .comments-content .datetime{font-size:80%;color:#777!important}
+.comments .comments-content .datetime{font-size:85%;color:#777!important}
 .comments .comments-content .datetime a{color:#777}
 .comments .comments-content .comment-thread ol a{color:#000}
 /*.comments .comments-content .icon.blog-author{background-repeat:no-repeat;background-image:url(http://3.bp.blogspot.com/-GsXem1Chqrc/UUdaYTwiWoI/AAAAAAAAAlg/Sh20UKfJJiI/s200/autenti.jpg);height:38px;margin:0;position:absolute;right:0;top:-0;width:38px}*/
@@ -95,8 +94,8 @@ img.mugs-in,img.balsam{-webkit-transition:all .4s;transition:all .4s}
 #footer{margin-bottom:15px}
 #beat{background:#f7f7f7;border-top:4px solid #5c2b68;float:left;width:100%;padding:22px 0}
 #feet-right,#feet-left{float:left;width:40%;padding-left:20px}
-#Blog1_blog-pager-older-link{padding:8px 10px;float:left;background:#222;color:#fff;text-transform:uppercase;text-decoration:none;font-weight:700;font-size:80%}
-#Blog1_blog-pager-newer-link{padding:8px 10px;float:left;background:#222;color:#fff;text-transform:uppercase;text-decoration:none;font-weight:700;font-size:80%}
+#Blog1_blog-pager-older-link{padding:8px 10px;float:left;background:#222;color:#fff;text-transform:uppercase;text-decoration:none;font-weight:700;font-size:85%}
+#Blog1_blog-pager-newer-link{padding:8px 10px;float:left;background:#222;color:#fff;text-transform:uppercase;text-decoration:none;font-weight:700;font-size:85%}
 #blog-pager-newer-link{float:$startSide}
 #blog-pager-older-link{float:$endSide}
 #blog-pager{text-align:center}
@@ -107,8 +106,8 @@ img.mugs-in,img.balsam{-webkit-transition:all .4s;transition:all .4s}
 .showpage a:hover{background:#000}
 .showpageNum a:hover{background:#000}
 .showpageArea{text-align:center}
-.title-secondary{color:#999;margin:8px 0;font-size:80%}
-.comment-sec{color:#999;font-size:80%;margin:6px 0}
+.title-secondary{color:#999;margin:8px 0;font-size:85%}
+.comment-sec{color:#999;font-size:85%;margin:6px 0}
 .comment-sec a{color:#999}
 .comment-t{background:url(http://2.bp.blogspot.com/-aSKkndzHzeY/UaJVftyItsI/AAAAAAAABJM/97PIUli0K4w/s200/cmmnt.png) no-repeat 0 1px transparent;min-height:16px;padding:0 14px 0 8px}
 .auth{margin:0 7px 0 10px}
@@ -163,7 +162,7 @@ ul#share-box li{margin-left:23px}
 .cols-2 li:first-child h3,.UJ-list li:first-child h3{clear:both;padding:10px 0}
 .cols-2 li:first-child h3,.inde-uj li:first-child h3,.UJ-list li:first-child h3{text-transform:uppercase;font-size:110%;font-weight:700;line-height:19px}
 .cols-2 li h3,.inde-uj li h3,.UJ-list li h3,.car-box li h3,.car-box li:first-child h3{font-size:100%;font-weight:300;line-height:20px;letter-spacing:0}
-span.post-meta{color:#aaa;font-size:80%;padding:10px 0}
+span.post-meta{color:#aaa;font-size:85%;padding:10px 0}
 .uj_thumb a:hover img{opacity:.7}
 li:first-child p{padding:0}
 a.more-link:hover{background:#814C95!important}
@@ -332,7 +331,8 @@ html h3.post-title{font-size:180%}
 #header-area{background:url(http://1.bp.blogspot.com/-DTMU1ib6N_0/VrRcmCeNn9I/AAAAAAAAA-w/rz8zYRZjv_I/s1600/bg-img2.png) repeat-x scroll 0 0 rgba(0,0,0,0)}
 .post-body .separator { width:100%;max-height:350px;overflow:hidden;margin-bottom: 7px;}
 .post img { width: 100%;}
-.breadcrumbs{padding:0 5px 5px 0;margin:0 0 5px;font-size:80%;border-bottom:1px dotted #ccc;font-weight:normal}
+.post-header,.post-header a {font-size:85%;color:#7b7b7b;
+.breadcrumbs{padding:0 5px 5px 0;margin:0 0 5px;font-size:85%;border-bottom:1px dotted #ccc;font-weight:normal}
 #blogger-related-posts ul{padding:0;list-style-type:none;text-align:left}#blogger-related-posts li{float:left;margin:0 1%;width:180px}#blogger-related-posts a{display:block}#blogger-related-posts span{display:block;margin:0 auto .5em;width:180px;height:120px;background-size: 180px 180px !important;}#blogger-related-posts ul:after{content:"";display:block;clear:both}#blogger-related-posts small{}#blogger-related-posts h3{font-size:125%;}
 .status-msg-body { padding: 0.3em 0px;text-align: center;width: 100%;}
 .status-msg-wrap { background-color: #EEEEEE;border: 1px solid #999999;font-size:110%;margin:10px auto;width:90%;}
