@@ -349,5 +349,5 @@ html h3.post-title{font-size:180%}
 #footer-wrapper{color:#fff;line-height:1;padding:5px 0 10px 0;text-align:center}
 #footer a {color:#fff;text-decoration:none;}
 #footer a:hover {color:#fff;}
-a{color:#369;font-weight:500}
+a{text-transform:capitalize;color:#369;font-weight:500}
 a:hover{color:#E74C3C}
