@@ -166,7 +166,7 @@ ul#share-box li{margin-left:23px}
 span.post-meta{color:#aaa;font-size:85%;padding:10px 0}
 .uj_thumb a:hover img{opacity:.7}
 li:first-child p{padding:0}
-a.more-link:hover{background:#814C95!important}
+a.more-link:hover{background:#814C95!important;color:#fff;}
 .post-title a,a.more-link,a.more-link:after,.main-menu li a,.flickr_badge_image img{transition:all .2s ease-in-out 0}
 li:first-child a.more-link,.inde-uj li:first-child a.more-link{display:inline-block}
 li a.more-link,.inde-uj li a.more-link,.car-box li a.more-link,.car-tube li a.more-link{display:none}
@@ -329,7 +329,6 @@ html h3.post-title{font-size:180%}
 .adsen2{float:left}
 #blog-pager-newer-link{float:left}
 #blog-pager-older-link{float:right}
-#header-area{background:url(http://1.bp.blogspot.com/-DTMU1ib6N_0/VrRcmCeNn9I/AAAAAAAAA-w/rz8zYRZjv_I/s1600/bg-img2.png) repeat-x scroll 0 0 rgba(0,0,0,0)}
 .post-body .separator { width:100%;max-height:350px;overflow:hidden;margin-bottom: 7px;}
 .post img { width: 100%;}
 .post-header,.post-header a {font-size:85%;color:#7b7b7b;}
@@ -345,8 +344,9 @@ html h3.post-title{font-size:180%}
 #blog-pager a.blog-pager-older-link{float:right;padding:0 12px}
 #blog-pager a.blog-pager-newer-link{float:left}
 /* Footer Wrapper */
+#header-area,#footer-wrapper{background:#29abe2;}
 #footer{margin:0 auto;}
-#footer-wrapper{background:#29abe2;color:#fff;line-height:1;padding:5px 0 10px 0;text-align:center}
+#footer-wrapper{color:#fff;line-height:1;padding:5px 0 10px 0;text-align:center}
 #footer a {color:#fff;text-decoration:none;}
 #footer a:hover {color:#fff;}
 a{color:#369;font-weight:500}
