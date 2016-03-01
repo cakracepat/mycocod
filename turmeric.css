@@ -132,7 +132,7 @@ ul#share-box li{margin-left:23px}
 .entry-categories{color:#a9a9a9;text-transform:uppercase}
 .tag-t{background:url(http://3.bp.blogspot.com/-uTcbJiT4cGk/UvKOsaduaEI/AAAAAAAACN4/7NELSDBGNB4/s200/tags.png) no-repeat 0 1px transparent;min-height:16px;padding:0 14px 0 8px}
 #ad-460 h2{display:none}
-.new-ad{margin:0 auto 15px;width:468px}
+.new-ad{margin:0 auto 10px;width:100%;overflow: hidden;}
 .comt{padding-left:3px}
 .icon-time{background:url(http://2.bp.blogspot.com/-LtFVjtUTMvM/UyYYYNu0PVI/AAAAAAAACUs/0YbMlvo1NkE/s200/date.png) no-repeat scroll 0 -1px rgba(0,0,0,0);height:16px;width:18px;padding:0 12px 0 8px}
 .icon-comments{background:url(http://1.bp.blogspot.com/-fEtZa8-0qkM/UyYYVv7n0-I/AAAAAAAACUk/9ak5KbJKWfs/s200/cmmnt.png) no-repeat scroll 0 1px rgba(0,0,0,0);min-height:16px;padding:0 14px 0 8px}
@@ -231,7 +231,7 @@ a.more-link{background-color:#1AC381;color:#fff;float:left;margin:10px 0;padding
 #header-place{width:220px;padding:22px 0 20px}
 #search-area input{width:120px}
 #header{width:90%;text-align:center}
-#header-rside,#ad-460,#search-block{display:none}
+#header-rside,#search-block{display:none}
 #main-area{width:100%;padding:25px 0}
 #rside-area{margin-left:6px;width:96%}
 #social-media,.ftmenu{display:none}
