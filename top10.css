@@ -123,3 +123,37 @@ h2.post-titles{display:none}
 .profile-textblock{margin:.5em 0}
 .status-msg-wrap{background:#EEE;border:1px solid #CCC;margin:10px;padding:10px;text-align:center}
 #ads-1 {float: left;padding-right: 20px;}
+@media screen and (max-width:902px) {
+#outer-LaraZ-wrapper{border:0;margin:0}
+.serching form{min-width:120px}
+}
+@media screen and (max-width:600px) {
+.navNetlazsub{position:relative}
+.navNetlazsub label{display:block}
+.navNetlazsub ul{display:none;position:absolute;top:100%;left:0;right:0;background:#DDD;z-index:1}
+.navNetlazsub &gt; .maxer &gt; ul &gt; li{float:none;border-top:1px solid #3A3A3A;border-bottom:1px solid #CCC}
+.navNetlazsub &gt; .maxer &gt; ul &gt; li &gt; a{line-height:35px}
+.navNetlazsub &gt; .maxer &gt; ul &gt; li &gt; ul{margin-bottom:10px}
+.navNetlazsub input:checked + div ul{display:block}
+.navNetlazsub li ul li:hover &gt; a,.navNetlazsub li:hover &gt; a{background:transparent}
+.navNetlazsub a:hover{background:#CCC!important}
+.navNetlazsub li:hover &gt; ul{opacity:1}
+.navNetlazsub li ul{position:static;visibility:visible;opacity:1;width:auto;background:transparent}
+.navNetlazsub li ul li a,.navNetlazsub li a{color:#666}
+.navNetlazsub li ul li,.navNetlazsub li:hover &gt; ul li{height:auto}
+.navNetlazsub li ul li{margin-left:20px;border-left:3px solid #2A5A86}
+.related-post li{width:48%!important;padding:5px 1%!important;height:120px}
+.serching form{min-width:0;min-width:0;float:none;position:absolute;left:45px;right:0}
+.Header h1{font-size:42px}
+.Header .description{font-size:100%}
+#blog-pager{margin:0}
+#main-larazky-wrapper{float:none;display:block;width:auto;padding:0}
+#sidebar-wrap-laraznet{float:none;display:block;width:auto;margin:0}
+#header-LaraZ-wrapper{text-align:center}
+#header-NeTlaraZ-first,#header-NeTlaraZ-scnd{float:none;width:auto}
+#content-larazZ4ky-wrapper{padding:5px}
+#main{margin-right:0!important}
+#fut1 .widget,#fut3 .widget,#fut2 .widget{float:none;width:auto;padding:5px 10px 20px}
+.footerbawah *{float:none!important;text-align:center!important}
+.footerbawah{padding:10px 20px 40px}
+}
