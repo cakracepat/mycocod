@@ -39,7 +39,7 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 #sidebar .item-snippet,.futerkolom .item-snippet{font-size:11px;line-height:14px;text-align:justify;color:#555}
 #sidebar .item-thumbnail,.futerkolom .item-thumbnail{float:left;margin:0;width:72px;height:72px;margin-right:5px}
 #sidebar .item-thumbnail a img,.futerkolom .item-thumbnail a img{width:72px;height:72px}
-#sidebar .item-title,#sidebar .item-title a,.futerkolom .item-title,.futerkolom .item-title a{line-height:14px;font-weight:700;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+#sidebar .item-title,#sidebar .item-title a,.futerkolom .item-title,.futerkolom .item-title a{line-height:14px;font-weight:700;overflow:hidden;text-overflow:ellipsis}
 .sidetemplatebyLarazZbar h2,.sidetemplatebyLarazZbar h3{display:block;font-size:100%;color:#FFF;text-align:left;word-spacing:normal;text-transform:uppercase;font-weight:400;padding:10px;border-bottom:2px solid #ddd;letter-spacing:2px;background:#29ABE2;border-radius:5px 5px 0 0;line-height:17px;text-shadow:1px 1px 3px #1B2753}
 .sidetemplatebyLarazZbar .widget-content.popular-posts{padding-top:0}
 .sidetemplatebyLarazZbar{margin:0;padding:0 10px}
