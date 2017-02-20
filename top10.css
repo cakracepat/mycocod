@@ -95,8 +95,8 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 .BlogArchive #ArchiveList ul.posts li{line-height:14px;padding:5px;padding-left:1.3em}
 h2.date-header{display:none}
 #ArchiveList .toggle{cursor:pointer;_font-size:1.7em;line-height:.6em}
-#ArchiveList .expanded&gt;.toggle .zippy:after {
-content: &quot;\25BC\00A0&quot;;
+#ArchiveList .expanded>.toggle .zippy:after {
+content: "\25BC\00A0";
 }
 #ArchiveList .toggle{cursor:pointer}
 #ArchiveList .toggle-open{font-size:1.7em;line-height:.6em}
@@ -131,16 +131,16 @@ h2.post-titles{display:none}
 .navNetlazsub{position:relative}
 .navNetlazsub label{display:block}
 .navNetlazsub ul{display:none;position:absolute;top:100%;left:0;right:0;background:#DDD;z-index:1}
-.navNetlazsub &gt; .maxer &gt; ul &gt; li{float:none;border-top:1px solid #3A3A3A;border-bottom:1px solid #CCC}
-.navNetlazsub &gt; .maxer &gt; ul &gt; li &gt; a{line-height:35px}
-.navNetlazsub &gt; .maxer &gt; ul &gt; li &gt; ul{margin-bottom:10px}
+.navNetlazsub > .maxer > ul > li{float:none;border-top:1px solid #3A3A3A;border-bottom:1px solid #CCC}
+.navNetlazsub > .maxer > ul > li > a{line-height:35px}
+.navNetlazsub > .maxer > ul > li > ul{margin-bottom:10px}
 .navNetlazsub input:checked + div ul{display:block}
-.navNetlazsub li ul li:hover &gt; a,.navNetlazsub li:hover &gt; a{background:transparent}
+.navNetlazsub li ul li:hover > a,.navNetlazsub li:hover > a{background:transparent}
 .navNetlazsub a:hover{background:#CCC!important}
-.navNetlazsub li:hover &gt; ul{opacity:1}
+.navNetlazsub li:hover > ul{opacity:1}
 .navNetlazsub li ul{position:static;visibility:visible;opacity:1;width:auto;background:transparent}
 .navNetlazsub li ul li a,.navNetlazsub li a{color:#666}
-.navNetlazsub li ul li,.navNetlazsub li:hover &gt; ul li{height:auto}
+.navNetlazsub li ul li,.navNetlazsub li:hover > ul li{height:auto}
 .navNetlazsub li ul li{margin-left:20px;border-left:3px solid #2A5A86}
 .related-post li{width:48%!important;padding:5px 1%!important;height:120px}
 .serching form{min-width:0;min-width:0;float:none;position:absolute;left:45px;right:0}
