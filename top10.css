@@ -10,10 +10,11 @@ a img{border-width:0}
 #header-LaraZ-wrapper{margin:0;padding:20px 20px 10px;height:auto}
 #header-NeTlaraZ-first{width:50%;float:left}
 #header-NeTlaraZ-scnd{width:50%;float:right}
-.Header h1{margin:0;font-size:42px;font-weight:700;font-variant:small-caps}
+#header-NeTlaraZ-scnd a img {width: 100%;}
+.Header h1{margin:0;}
 .Header h1 a{color:#FFF;text-decoration:none}
 .Header h1 a:hover{color:#FFF}
-.Header .description{color:#FFF;padding-bottom:5px;letter-spacing:1px}
+.Header .description{color:#FFF;padding-bottom:5px 0 0 10px;letter-spacing:1px;font-weight: 600;}
 #outer-LaraZ-wrapper{background:#fff;position:relative;text-align:left;overflow:hidden}
 .maxer,#content-larazZ4ky-wrapper{max-width:960px;margin:0 auto}
 #content-larazZ4ky-wrapper{position:relative;padding:0 20px}
@@ -40,8 +41,7 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 #sidebar .item-thumbnail,.futerkolom .item-thumbnail{float:left;margin:0;width:72px;height:72px;margin-right:5px}
 #sidebar .item-thumbnail a img,.futerkolom .item-thumbnail a img{width:72px;height:72px}
 #sidebar .item-title,#sidebar .item-title a,.futerkolom .item-title,.futerkolom .item-title a{line-height:14px;font-weight:700;overflow:hidden;text-overflow:ellipsis}
-.sidetemplatebyLarazZbar h2{display:block;font-size:130%;text-align:left;word-spacing:normal;text-transform:uppercase;
- font-weight:400;padding:10px;letter-spacing:2px;line-height:140%}
+.sidetemplatebyLarazZbar h2{display:block;font-size:130%;text-align:left;word-spacing:normal;text-transform:uppercase;font-weight:500;padding:10px;letter-spacing:2px;line-height:140%}
 .sidetemplatebyLarazZbar h3{}
 .sidetemplatebyLarazZbar .widget-content.popular-posts{padding-top:0}
 .sidetemplatebyLarazZbar{margin:0;padding:0 10px}
