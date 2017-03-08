@@ -2,12 +2,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 b,strong{font-weight:700}
 i{font-style:italic}
 u{text-decoration:underline}
-body{background:#98A0AA;color:#000;font-family:Roboto,arial,helvetica,sans-serif!important;font-size:15px;line-height:26px;margin:0;padding:0}
+body{background:#98A0AA;color:#000;font-family:Roboto,helvetica,arial,sans-serif!important;font-size:15px;line-height:26px;margin:0;padding:0}
 a:link{color:#29ABE2;text-decoration:none}
 a:hover{color:purple;text-decoration:none}
 a:visited{color:#29ABE2;text-decoration:none}
 a img{border-width:0}
-#header-LaraZ-wrapper{background:#29ABE2;margin:0;padding:10px 20px;height:auto;border-bottom:1px solid #E6E6E6}
+#header-LaraZ-wrapper{margin:0;padding:20px 20px 10px;height:auto}
 #header-NeTlaraZ-first{width:50%;float:left}
 #header-NeTlaraZ-scnd{width:50%;float:right}
 .Header h1{margin:0;font-size:42px;font-weight:700;font-variant:small-caps}
@@ -20,7 +20,7 @@ a img{border-width:0}
 #main-larazky-wrapper{position:relative;width:66%;float:left;padding:5px 0;word-wrap:break-word;margin:0 auto}
 #main{margin-right:20px}
 #sidebar-wrap-laraznet{position:relative;width:34%;float:right;word-wrap:break-word;margin:5px 0;overflow:hidden;font-size:13px;color:#464646}
-.post{margin-bottom:5px;padding:0;padding-bottom:10px;background:#fff;border-bottom:1px solid #ddd}
+.post{margin-bottom:5px;padding:0;padding-bottom:10px;background:#fff}
 h2.post-title{display:block;font-size:16px;margin:0;padding:5px;line-height:20px;font-weight:700}
 h2.post-title a,h2.post-title a:visited,h2.post-title strong{text-decoration:none}
 h2.post-title strong,h2.post-title a:hover{text-decoration:none}
@@ -29,7 +29,7 @@ tr{border-bottom:1px solid #CCC}
 th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 #blog-pager-newer-link{float:left;text-align:left}
 #blog-pager-older-link{float:right;text-align:right}
-#blog-pager{text-align:center;color:#000;text-decoration:none;font-size:15px;padding:4px 4px 3px;margin:0;line-height:20px;border-bottom:1px solid #ddd}
+#blog-pager{text-align:center;color:#000;text-decoration:none;font-size:15px;padding:4px 4px 3px;margin:0;line-height:20px;}
 #blog-pager a,#blog-pager div{display:block;padding:3px 6px}
 #blog-pager a .blogsp1,#blog-pager div .blogsp1{border-radius:3px;color:#222;font-size:13px;font-weight:700;text-transform:uppercase}
 #blog-pager div,#blog-pager div .blogsp1{color:#999}
@@ -40,7 +40,9 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 #sidebar .item-thumbnail,.futerkolom .item-thumbnail{float:left;margin:0;width:72px;height:72px;margin-right:5px}
 #sidebar .item-thumbnail a img,.futerkolom .item-thumbnail a img{width:72px;height:72px}
 #sidebar .item-title,#sidebar .item-title a,.futerkolom .item-title,.futerkolom .item-title a{line-height:14px;font-weight:700;overflow:hidden;text-overflow:ellipsis}
-.sidetemplatebyLarazZbar h2,.sidetemplatebyLarazZbar h3{display:block;font-size:100%;color:#FFF;text-align:left;word-spacing:normal;text-transform:uppercase;font-weight:400;padding:10px;border-bottom:2px solid #ddd;letter-spacing:2px;background:#29ABE2;border-radius:5px 5px 0 0;line-height:17px;text-shadow:1px 1px 3px #1B2753}
+.sidetemplatebyLarazZbar h2{display:block;font-size:130%;text-align:left;word-spacing:normal;text-transform:uppercase;
+ font-weight:400;padding:10px;letter-spacing:2px;line-height:140%}
+.sidetemplatebyLarazZbar h3{}
 .sidetemplatebyLarazZbar .widget-content.popular-posts{padding-top:0}
 .sidetemplatebyLarazZbar{margin:0;padding:0 10px}
 .sidetemplatebyLarazZbar ul,.futerkolom ul{list-style:none;margin:0;padding:0}
@@ -73,7 +75,7 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 .serch{text-indent:10px;background:transparent}
 .serchg{float:right;width:30px;height:26px!important;padding:0!important;background:transparent;color:#6B7DC5;border:0!important;font-size:12px!important;cursor:pointer}
 .a .a:visited .a:hover .a:link{text-decoration:none}
-.breadcrumbs{border-top:1px dashed #ddd;border-bottom:1px dashed #ddd;padding:3px;font-size:85%;margin-bottom:3px;font-weight:400}
+.breadcrumbs{padding:3px;font-size:85%;margin-bottom:3px;font-weight:400}
 .navNetlazsub{color:#fff;min-height:40px;background:#F1F1F1;border-top:1px solid #EEE;border-bottom:1px solid #F0F0F0}
 .navNetlazsub input,.navNetlazsub label{display:none}
 .navNetlazsub label{height:40px;width:40px;text-align:left;color:#aaa;line-height:40px;font-size:25px;font-weight:700;text-align:center;margin-left:5px;cursor:pointer;float:left}
@@ -156,4 +158,3 @@ h2.post-titles{display:none}
 #fut1 .widget,#fut3 .widget,#fut2 .widget{float:none;width:auto;padding:5px 10px 20px}
 .footerbawah *{float:none!important;text-align:center!important}
 .footerbawah{padding:10px 20px 40px}
-}
