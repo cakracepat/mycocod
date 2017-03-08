@@ -30,13 +30,13 @@ tr{border-bottom:1px solid #CCC}
 th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 #blog-pager-newer-link{float:left;text-align:left}
 #blog-pager-older-link{float:right;text-align:right}
-#blog-pager{text-align:center;color:#000;text-decoration:none;font-size:15px;padding:4px 4px 3px;margin:0;line-height:20px;}
+#blog-pager{text-align:center;text-decoration:none;margin:0;}
 #blog-pager a,#blog-pager div{display:block;padding:3px 6px}
-#blog-pager a .blogsp1,#blog-pager div .blogsp1{border-radius:3px;color:#222;font-size:13px;font-weight:700;text-transform:uppercase}
-#blog-pager div,#blog-pager div .blogsp1{color:#999}
+#blog-pager a .blogsp1,#blog-pager div .blogsp1{border-radius:3px;}
+#blog-pager div,#blog-pager div .blogsp1{}
 .blogsp1,.blogsp2{display:block}
 .blogsp2{font-size:100%;letter-spacing:2px}
-#blog-pager a:hover{text-decoration:none;background:#E7E7E7}
+#blog-pager a:hover{text-decoration:none;}
 #sidebar .item-snippet,.futerkolom .item-snippet{font-size:11px;line-height:14px;text-align:justify;color:#555}
 #sidebar .item-thumbnail,.futerkolom .item-thumbnail{float:left;margin:0;width:72px;height:72px;margin-right:5px}
 #sidebar .item-thumbnail a img,.futerkolom .item-thumbnail a img{width:72px;height:72px}
@@ -46,7 +46,7 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 .sidetemplatebyLarazZbar .widget-content.popular-posts{padding-top:0}
 .sidetemplatebyLarazZbar{margin:0;padding:0 10px}
 .sidetemplatebyLarazZbar ul,.futerkolom ul{list-style:none;margin:0;padding:0}
-.sidetemplatebyLarazZbar ul li,.futerkolom ul li{border-bottom:1px solid #DDD;font-size:13px;margin:0 auto;padding:10px 5px}
+.sidetemplatebyLarazZbar ul li,.futerkolom ul li{font-size:13px;margin:0 auto;padding:10px 5px}
 .futerkolom ul li{border-bottom:1px solid #505050}
 .sidetemplatebyLarazZbar ul li a{text-decoration:none;color:#222}
 .futerkolom ul li a,.futerkolom ul li a:visited,.futerkolom ul li a:link{color:#7e7e7e;text-decoration:none}
@@ -76,7 +76,7 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 .serchg{float:right;width:30px;height:26px!important;padding:0!important;background:transparent;color:#6B7DC5;border:0!important;font-size:12px!important;cursor:pointer}
 .a .a:visited .a:hover .a:link{text-decoration:none}
 .breadcrumbs{padding:3px;font-size:85%;margin-bottom:3px;font-weight:400}
-.navNetlazsub{color:#fff;min-height:40px;background:#F1F1F1;border-top:1px solid #EEE;border-bottom:1px solid #F0F0F0}
+.navNetlazsub{color:#fff;min-height:40px;background:#F1F1F1}
 .navNetlazsub input,.navNetlazsub label{display:none}
 .navNetlazsub label{height:40px;width:40px;text-align:left;color:#aaa;line-height:40px;font-size:25px;font-weight:700;text-align:center;margin-left:5px;cursor:pointer;float:left}
 .navNetlazsub input:checked + div label{color:#fff}
@@ -133,7 +133,7 @@ h2.post-titles{display:none}
 .navNetlazsub{position:relative}
 .navNetlazsub label{display:block}
 .navNetlazsub ul{display:none;position:absolute;top:100%;left:0;right:0;background:#DDD;z-index:1}
-.navNetlazsub > .maxer > ul > li{float:none;border-top:1px solid #3A3A3A;border-bottom:1px solid #CCC}
+.navNetlazsub > .maxer > ul > li{float:none}
 .navNetlazsub > .maxer > ul > li > a{line-height:35px}
 .navNetlazsub > .maxer > ul > li > ul{margin-bottom:10px}
 .navNetlazsub input:checked + div ul{display:block}
