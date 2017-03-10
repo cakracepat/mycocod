@@ -37,11 +37,12 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 .blogsp1,.blogsp2{display:block}
 .blogsp2{font-size:100%;letter-spacing:2px}
 #blog-pager a:hover{text-decoration:none;}
-#sidebar .item-snippet,.futerkolom .item-snippet{font-size:11px;line-height:14px;text-align:justify;color:#555}
-#sidebar .item-thumbnail,.futerkolom .item-thumbnail{float:left;margin:0;width:72px;height:72px;margin-right:5px}
-#sidebar .item-thumbnail a img,.futerkolom .item-thumbnail a img{width:72px;height:72px}
-#sidebar .item-title,#sidebar .item-title a,.futerkolom .item-title,.futerkolom .item-title a{line-height:14px;font-weight:700;overflow:hidden;text-overflow:ellipsis}
-.sidetemplatebyLarazZbar h2{display:block;font-size:130%;text-align:left;word-spacing:normal;text-transform:uppercase;font-weight:500;padding:10px;letter-spacing:2px;line-height:140%}
+#sidebar .item-snippet,.futerkolom .item-snippet{font-size:11px;line-height:14px;text-align:justify}
+#sidebar .item-thumbnail,.futerkolom .item-thumbnail{float:left;margin:0 5px 0 0;}
+#sidebar .item-thumbnail a img,.futerkolom .item-thumbnail a img{width:70px;height:100px}
+#sidebar .item-title,#sidebar .item-title a,.futerkolom .item-title,.futerkolom .item-title a{line-height:15px;line-height: 18px;font-weight:700;overflow:hidden;text-overflow:ellipsis}
+.sidetemplatebyLarazZbar h2{display:block;font-size:130%;text-align:center;word-spacing:normal;border: 1px solid #A01010;
+  text-transform:uppercase;font-weight:500;padding:10px;letter-spacing:2px;line-height:140%}
 .sidetemplatebyLarazZbar h3{}
 .sidetemplatebyLarazZbar .widget-content.popular-posts{padding-top:0}
 .sidetemplatebyLarazZbar{margin:0;padding:0 10px}
