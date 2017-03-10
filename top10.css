@@ -39,17 +39,16 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 #blog-pager a:hover{text-decoration:none;}
 #sidebar .item-snippet,.futerkolom .item-snippet{font-size:11px;line-height:14px;text-align:justify}
 #sidebar .item-thumbnail,.futerkolom .item-thumbnail{float:left;margin:0 5px 0 0;}
-#sidebar .item-thumbnail a img,.futerkolom .item-thumbnail a img{width:70px;height:100px}
-#sidebar .item-title,#sidebar .item-title a,.futerkolom .item-title,.futerkolom .item-title a{line-height:15px;line-height: 18px;font-weight:700;overflow:hidden;text-overflow:ellipsis}
-.sidetemplatebyLarazZbar h2{display:block;font-size:130%;text-align:center;word-spacing:normal;border: 1px solid #A01010;
-  text-transform:uppercase;font-weight:500;padding:10px;letter-spacing:2px;line-height:140%}
+#sidebar .item-thumbnail a img,.futerkolom .item-thumbnail a img{width:100px;height:70px}
+#sidebar .item-title,#sidebar .item-title a,.futerkolom .item-title,.futerkolom .item-title a{line-height:15px;line-height:20px;font-weight:700;overflow:hidden;text-overflow:ellipsis}
+.sidetemplatebyLarazZbar h2{display:block;font-size:130%;text-align:center;word-spacing:normal;border: 1px solid #A01010;text-transform:uppercase;font-weight:500;padding:10px;letter-spacing:2px;line-height:140%}
 .sidetemplatebyLarazZbar h3{}
 .sidetemplatebyLarazZbar .widget-content.popular-posts{padding-top:0}
 .sidetemplatebyLarazZbar{margin:0;padding:0 10px}
 .sidetemplatebyLarazZbar ul,.futerkolom ul{list-style:none;margin:0;padding:0}
 .sidetemplatebyLarazZbar ul li,.futerkolom ul li{font-size:13px;margin:0 auto;padding:10px 5px}
 .futerkolom ul li{border-bottom:1px solid #505050}
-.sidetemplatebyLarazZbar ul li a{text-decoration:none;color:#222}
+.sidetemplatebyLarazZbar ul li a{text-decoration:none;color:#E74C3C}
 .futerkolom ul li a,.futerkolom ul li a:visited,.futerkolom ul li a:link{color:#7e7e7e;text-decoration:none}
 .futerkolom ul li a:hover{color:#999}
 .sidetemplatebyLarazZbar ul li a:hover{text-decoration:underline;color:#0E8FEC}
