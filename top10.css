@@ -22,7 +22,7 @@ a img{border-width:0}
 #main{margin-right:20px}
 #sidebar-wrap-laraznet{position:relative;width:34%;float:right;word-wrap:break-word;margin:5px 0;overflow:hidden;font-size:13px;color:#464646}
 .post{margin-bottom:5px;padding:0;padding-bottom:10px;background:#fff}
-h2.post-title{display:block;font-size:16px;margin:0;padding:5px;line-height:20px;font-weight:700}
+h2.post-title{display:block;font-size:16px;margin:0;padding:5px;line-height:18px;font-weight:700}
 h2.post-title a,h2.post-title a:visited,h2.post-title strong{text-decoration:none}
 h2.post-title strong,h2.post-title a:hover{text-decoration:none}
 table{border-color:#CCC;border-style:solid;border-width:1px 1px 0;font-size:100%;line-height:18px;margin:0 0 22px;text-align:left}
@@ -46,9 +46,9 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 .sidetemplatebyLarazZbar .widget-content.popular-posts{padding-top:0}
 .sidetemplatebyLarazZbar{margin:0;padding:0 10px}
 .sidetemplatebyLarazZbar ul,.futerkolom ul{list-style:none;margin:0;padding:0}
-.sidetemplatebyLarazZbar ul li,.futerkolom ul li{font-size:13px;margin:0 auto;padding:10px 5px}
+.sidetemplatebyLarazZbar ul li,.futerkolom ul li{font-size:15px;margin:0 auto;padding:10px 5px}
 .futerkolom ul li{border-bottom:1px solid #505050}
-.sidetemplatebyLarazZbar ul li a{text-decoration:none;color:#E74C3C}
+.sidetemplatebyLarazZbar ul li a{text-decoration:none;color:#29ABE2}
 .futerkolom ul li a,.futerkolom ul li a:visited,.futerkolom ul li a:link{color:#7e7e7e;text-decoration:none}
 .futerkolom ul li a:hover{color:#999}
 .sidetemplatebyLarazZbar ul li a:hover{text-decoration:underline;color:#0E8FEC}
