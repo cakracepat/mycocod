@@ -83,15 +83,15 @@ th,td{padding:.7em 1.25em;border-bottom:1px solid #CCC}
 .navNetlazsub ul{margin:0;padding:0}
 .navNetlazsub li{list-style:none;margin:0;padding:0;float:left;position:relative}
 .navNetlazsub li a{display:block;text-decoration:none;color:#666;line-height:40px;padding:0 15px;text-shadow:0 -1px #2A3741;padding-bottom:1px}
-.navNetlazsub li a:hover,.navNetlazsub li:hover &gt; a{background:#DDD;color:#444}
-.navNetlazsub li ul li a:hover,.navNetlazsub li ul li:hover &gt; a{background:#CCC}
+.navNetlazsub li a:hover,.navNetlazsub li:hover > a{background:#DDD;color:#444}
+.navNetlazsub li ul li a:hover,.navNetlazsub li ul li:hover > a{background:#CCC}
 .navNetlazsub li ul{transition:.3s ease-out;-webkit-transition:.3s ease-in-out;-moz-transition:.3s ease-in-out;position:absolute;top:100%;left:0;z-index:99;width:200px;opacity:0;height:auto;visibility:hidden;background:#DDD}
-.navNetlazsub .maxer &gt; ul &gt; li &gt; ul{margin-top:-1px}
+.navNetlazsub .maxer > ul > li > ul{margin-top:-1px}
 .navNetlazsub li ul li a{text-shadow:none;color:#333;line-height:30px}
 .navNetlazsub li ul li{float:none;display:block;height:0;transition:.3s ease-out;-webkit-transition:.3s ease-in-out;-moz-transition:.3s ease-in-out;font-weight:400}
 .navNetlazsub li ul ul{top:0;left:100%;border-top:0}
-.navNetlazsub li:hover &gt; ul{opacity:1;visibility:visible}
-.navNetlazsub li:hover &gt; ul li{height:30px}
+.navNetlazsub li:hover > ul{opacity:1;visibility:visible}
+.navNetlazsub li:hover > ul li{height:30px}
 .onshadow{border-top:1px solid #F0F0F0;height:10px}
 .futerblock .widget{padding:10px 20px}
 .BlogArchive #ArchiveList ul.posts li{line-height:14px;padding:5px;padding-left:1.3em}
@@ -158,3 +158,4 @@ h2.post-titles{display:none}
 #fut1 .widget,#fut3 .widget,#fut2 .widget{float:none;width:auto;padding:5px 10px 20px}
 .footerbawah *{float:none!important;text-align:center!important}
 .footerbawah{padding:10px 20px 40px}
+}
